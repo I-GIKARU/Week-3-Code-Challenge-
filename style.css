@@ -1,0 +1,85 @@
+/*styles*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1, h3 {
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.films-list {
+  flex: 1;
+  background: #eee;
+  padding: 10px;
+}
+
+.films-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.film-item {
+  padding: 5px;
+  margin: 5px 0;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.film-item:hover {
+  background: #ddd;
+}
+
+.sold-out {
+  color: red;
+}
+
+.poster-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.poster-container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.details {
+  flex: 1;
+  text-align: left;
+  padding: 10px;
+}
+
+button {
+  background: #e6cf06;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
